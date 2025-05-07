@@ -33,7 +33,7 @@
                             <div class="fs-6 fw-normal">{{ $kategori->nama }}</div>
                         </div>
                         <div class="text-end fs-3">
-                            {{ $kategori->kode }} {{ $nextAntrian[$kategori->kode] ?? 0 }}
+                            {{ $kategori->kode }} {{ $nextAntrian[$kategori->kode] + 1 ?? 0 }}
                         </div>
                     </div>
                 </button>
